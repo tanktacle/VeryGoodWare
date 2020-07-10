@@ -1,5 +1,6 @@
 // audio_stegano - a tool to hide files in WAV audio files writen in golang
 // this script was an absolute nightmare to do thank you very much
+
 package main
 
 import (
@@ -46,7 +47,7 @@ func main() {
     secretMsgBits := bits([]byte{bte}) // convert 1 character of secretMessage to an array of 0's and 1's
     for _,sbit := range secretMsgBits {
 
-      wavArray[wavIndex] = (wavArray[wavIndex] & byte(254+sbit))
+      wavArray[wavIndex] = (wavArray[wavIndex] & 254 | byte(sbit))
       wavIndex++
 
       if wavIndex == len(wavArray) {
