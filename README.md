@@ -1,5 +1,4 @@
 # VeryGoodWare
-A collection of scripts that I didn't recreate from malware
 
 I created this file with the goal in mind to learn a bit more about Go and recreate some of the malware behaviours I found to be interesting in some of the samples.
 This repo contains the following
