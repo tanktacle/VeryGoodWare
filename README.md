@@ -22,7 +22,7 @@ I also attached the two PNG files, the one without anything (rose.png) and the o
 
 ## NotOceanLotus
 
-In the second place, I also did this other script which proved to be way more complicated to write than the first one. Although it's probably due to the time it took me to work out the arithmetics in it and bit-wise operations.
+In the second place, I also did this other script which proved to be way more complicated to write than the first one. Although it's probably due to the time it took me to work out the arithmetics in it and bit-wise operations, which I probably wouldn't have been able to do without a good friend of mine.
 
 I decided to take on this one because it was published by a Cylance researcher in its time, and I find them to be a very high level blog, so I went to write the thing which they had a hard time dealing with.
 
